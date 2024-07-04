@@ -1,0 +1,4 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+attn_firmlevel.csv filter=lfs diff=lfs merge=lfs -text
+attn_firmlevel.dta filter=lfs diff=lfs merge=lfs -text
